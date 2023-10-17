@@ -1,0 +1,22 @@
+h1{
+    color: transparent;
+    -webkit-text-stroke: 3px red;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    text-underline-offset: 40px ;
+}
+h2{ 
+    border: 10px solid black;margin: auto; 
+    padding: 8px;
+    width: fit-content;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px solid; 
+}
+.arrow {
+    margin-right: auto;
+    margin-left: auto;
+}
