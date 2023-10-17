@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KickFlip</title>
+    </head>
+    <body>
+        <h1 style="font-size: 140px; text-align: center;">KickFlip</h1>
+        <br><br>
+        <h2 style="font-size: 40px; text-align: center;">Sell Now</h2>
+        <br>
+        <h3 style="font-size: 40px; text-align: center;">Buy Now</h3>
+    </body>
+        <img src="arrow.png" alt="Arrow" width="50" height="60">
+        <br><br><br><br><br><br>
+        <table class="center">
+            <tr>
+                <th><img src="shoe1.jpg" alt="shoe1" width="300" height="300"></th>
+                <th><img src="shoe2.jpg" alt="shoe2" width="300" height="300"></th>
+                <th><img src="shoe3.jpg" alt="shoe3" width="300" height="300"></th>
+            </tr>
+            <tr>
+                <td>Name of Shoe</td>
+                <td>Name of Shoe</td>
+                <td>Name of Shoe</td>
+            </tr>
+            <tr>
+                <td>Brand</td>
+                <td>Brand</td>
+                <td>Brand</td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>Price</td>
+                <td>Price</td>
+            </tr>
+            <tr>
+                <td>Stock</td>
+                <td>Stock</td>
+                <td>Stock</td>
+            </tr>
+            <tr></tr>
+            <br><br>
+            <tr>
+                <th>Image of Shoe</th>
+                <th>Image of Shoe</th>
+                <th>Image of Shoe</th>
+            </tr>
+            <tr>
+                <td>Name of Shoe</td>
+                <td>Name of Shoe</td>
+                <td>Name of Shoe</td>
+            </tr>
+            <tr>
+                <td>Brand</td>
+                <td>Brand</td>
+                <td>Brand</td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>Price</td>
+                <td>Price</td>
+            </tr>
+            <tr>
+                <td>Stock</td>
+                <td>Stock</td>
+                <td>Stock</td>
+            </tr>
+        </table>        
+        <link rel="stylesheet" href="css kickflip.css">
