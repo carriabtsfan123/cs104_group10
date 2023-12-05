@@ -1,0 +1,53 @@
+h1{
+    color: transparent;
+    -webkit-text-stroke: 5px red;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    text-underline-offset: 40px ;
+    text-align: center;
+    padding: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+}
+h2{ 
+    color: white;
+    text-decoration-line: underline;
+    text-underline-offset: 10px ;
+    padding: 10px;
+    background-color: rgb(197, 16, 16);
+}
+h3{
+    color: white;
+    padding: 40px;
+    background-color: gray
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px solid; 
+}
+.arrow {
+    display: block;
+    margin: auto;
+}
+
+table, th, td{
+    border-width: 1px;
+    border-color: black;
+}
+th{
+    background-color: grey;
+    padding: 50px;
+}
+td{
+    background-color: lightgrey;
+    padding: 10px
+}
+body{
+    background-image: url(background.jpg);
+    background-size:contain;
+}
+a{
+    color: white
+}
