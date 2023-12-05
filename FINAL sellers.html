@@ -1,35 +1,61 @@
 <html>
+    
     <title>
         Kick Flip Sellers Page
     </title>
-    <link rel="stylesheet" href="cssmid.css">
+    <link rel="stylesheet" href="sellers.css">
     <body>
+        <br>
         <h1>
             <h1
-                style="font-size: 140px; text-align: center;">KickFlip
+                style="font-size: 120px; text-align: center;">KickFlip
             </h1>
         </h1>
     </body>
 <hr>
 <div>
-    <h2 style="font-size: 25px;"> Home</h2> 
+    <h2 style="font-size: 25px; color: white; background-color:rgb(197, 16, 16); padding: 10px;"> Home</h2> 
 </div>
 <hr>
-    <h3>
-        Submit Shoes
-    </h3>
+    <h2 style="padding: 10px; text-align: center;">
+        Shoe Submission
+    </h2>
+
 <div>
-    <form action="text">
-        <input type="text" placeholder="Name"> 
-        <br>
-        <input type="text" placeholder="Brand">
-        <br>
-        <input type="text" placeholder="Price">
-        <br>
-        <input type="text" placeholder="Amount Available">
-        <br>
-        <input type="submit">
+    <form id="form" action="text" style="padding: 10px; text-align: center;">
+        <input id="req" type= "text" placeholder="Name" required> 
+        <br><br>
+        <input id="req" type="text" placeholder="Brand" required>
+        <br><br>
+        <input id="req" type="text" placeholder="Size" required>
+        <br><br>
+        <input id="req" type="text" placeholder="Men or Women Size" required>
+        <br><br>
+        <input id="req" type="text" placeholder="Price" required>
+        <br><br>
+        <input id="req" type="text" placeholder="Quantity" required>
+        <br><br>
+        <input id="req" type="text" placeholder="Used or Unused" required>
+        <br><br>
+        <input id="req" type="email" placeholder="Email" required>
+        <br><br>
+        <input type="text" placeholder="Additional Description">
+        <br><br>
+        <input type="submit" value="Submit">
     </form>
+    
+    <script>
+        document.getElementById('form').addEventListener('submit', function(event) {event.preventDefault();
+        
+        var req = document.getElementById("req").value;
+        
+        if (req === '') {
+            alert("Please fill in the required fields.");
+        } else {
+            alert("Your application has been submitted successfuly! Next steps will be sent through email.");
+            }    
+        }
+    );
+    </script>
 </div>
-<link rel="stylesheet" href="sellers.css">
 </html>
