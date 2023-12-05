@@ -13,12 +13,52 @@
             padding: 30px;
         }
 
-       
-    
-
         footer {
             background-color:  #7d7c7c;
             color: #fff;
             padding: 10px;
             text-align: center;
         }
+
+table {
+    background-color: lightgray;
+    margin: 100px;
+    
+}
+table,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,td {padding: 10px;}
+#para2 {
+    color: red;
+}
+.para3 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: normal;
+}
+.njitlink {
+    text-decoration: none;
+    background-color: blue;
+    padding: 15px 15px 25px 25px;
+}
+.njitlink :hover {
+    background-color: red;
+    border: 2px solid black;
+}
+.puma {
+    width: 300px;
+    padding: 5px;
+    border: 30px;
+    padding-left: 30px;
+}
+h1 {
+    text-align: center;
+}
+a{
+    color: white;
+}
