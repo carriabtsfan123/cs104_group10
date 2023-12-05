@@ -1,1 +1,8 @@
-
+h1{
+    color: transparent;
+    -webkit-text-stroke: 3px red;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    text-underline-offset: 40px ;
+}
